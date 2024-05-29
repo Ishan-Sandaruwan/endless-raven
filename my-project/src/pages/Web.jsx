@@ -30,7 +30,8 @@ export default function Web() {
             <div className="flex-1 flex flex-col gap-4 justify-center py-4 ">
               <h1 className="xl:text-5xl text-3xl font-semibold text-red-700 drop-shadow-md lg:pb-8 pb-2">
                 {" "}
-                Discover The  <span className="font-bold">Web Apps</span>  That We Are Proud Of
+                Discover The <span className="font-bold">Web Apps</span> That We
+                Are Proud Of
               </h1>
               <p className="xl:text-base text-sm md:text-left text-justify">
                 asdgv aDUYIFG iuykasdgfc AIDSOUFG afoIAUSGDF oai8sdfhu
@@ -72,15 +73,21 @@ export default function Web() {
                     key={index}
                     className="relative w-full lg:w-96 flex-grow  h-60 bg-white rounded-md shadow-md p-4 cursor-pointer hover:shadow-lg"
                   >
-                    <h3 className="absolute top-4 left-5 drop-shadow-xl shadow-red-700 text-xl text-white stroke-black stroke-2 font-semibold uppercase">{project.name}</h3>
+                    <h3 className="absolute top-4 left-5 z-10 drop-shadow-xl shadow-red-700 text-xl text-white stroke-black stroke-2 font-semibold uppercase">
+                      {project.name}
+                    </h3>
                     <img
-                      className="bg-slate-200 h-1/2 w-full object-cover mb-2 "
+                      className="bg-slate-200 h-1/2 w-full object-cover mb-2 brightness-50"
                       src={project.photoUrl}
                       alt={project.name}
                     />
-                    <p className="text-sm max-h-24 overflow-y-scroll ">{project.description}</p>
+                    <p className="text-sm max-h-24 overflow-y-scroll ">
+                      {project.description}
+                    </p>
                     <a
-                      href={project.Link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={project.link}
                       className="absolute right-4 bottom-4 text-red-600 bg-white border-2 border-red-300 smooth hover:bg-red-600 hover:text-white p-2 text-sm rounded-md "
                     >
                       View Project

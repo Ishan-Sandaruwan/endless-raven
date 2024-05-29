@@ -77,7 +77,7 @@ export default function Mobile() {
                     />
                     <p className="text-sm">{project.description}</p>
                     <a
-                      href={project.Link}
+                      href={project.link}
                       className="absolute right-4 bottom-4 text-red-600 bg-white border-2 border-red-300 smooth hover:bg-red-600 hover:text-white p-2 text-sm rounded-md "
                     >
                       View Project
