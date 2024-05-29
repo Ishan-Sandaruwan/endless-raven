@@ -44,7 +44,7 @@ export default function Testimonials() {
       className="max-w-5xl w-[80%] mx-auto mb-20 lg:mb-32 lg:flex lg:gap-4 lg:justify-between "
     >
       <div className="lg:w-[30%]">
-        <h2 className="heading">Hear why work makes a difference</h2>
+        <h2 className="heading">Hear why our work makes a difference</h2>
         <p className="hidden lg:block">
           Satisfied customers have shared their genuine words about how our work has helped them to elevate 
           their businesses and solo projects. Delve into those testimonials to catch a glimpse of what our team 
